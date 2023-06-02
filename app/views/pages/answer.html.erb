@@ -1,9 +1,9 @@
-<div class="bg-warning" style="--bs-bg-opacity:0.2;">
+<div class=container>
   <h1><%= @title  %></h1>
+  <div class="bg-warning" style="--bs-bg-opacity:0.2;">
+    <p><strong>Your question: -<%= @ask  %></strong></p>
 
-  <h3><%= @ask  %></h3>
-
-  <p><%= @answer  %></p>
+    <p><i>Coach answer: -<%= @answer  %></i></p>
 
   <%= link_to "Ask another question", "ask" %>
 </div>
