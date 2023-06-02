@@ -1,0 +1,13 @@
+<h1><%= @title  %></h1>
+
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="col-12">
+      <form action="/answer" data-turbo="false" class="form-inline d-flex justify-content-center">
+        <label for="input" class="mr-2">Ask the stupid coach: </label>
+        <input type="text" id="input" name="input" class="form-control mr-2" placeholder="Your question goes here...">
+        <input type="submit" value="Ask!" class="btn btn-primary">
+      </form>
+    </div>
+  </div>
+</div>
